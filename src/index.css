@@ -1,0 +1,8 @@
+.slick-prev:before,
+.slick-next:before {
+  color: gray  ;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}

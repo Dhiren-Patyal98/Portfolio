@@ -1,0 +1,68 @@
+.text
+{
+ 
+    font-size: 20px;
+
+}
+.photo
+{
+    height: calc(350px);
+    width: auto;
+    border-radius: 25%;
+    
+}
+.cardd
+{
+    height: 200px;
+    width: auto;
+}
+
+.card
+{
+    height: 200px;
+    width:  360px;
+  
+    
+        
+      
+}
+
+.text1
+{
+    margin-top: 3%;
+    
+}
+.leftsec
+{
+    padding-left: 6.3%;
+    height: 200px;
+    width:  350px;
+
+}
+.middlesec
+{
+    padding-left: 8.6%;
+    height: 200px;
+    width:  350px;
+
+}
+
+.rightsec
+{
+    padding-left: 10.8%;
+    height: 200px;
+    width:  350px;
+
+}
+
+.certificationText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding-left: 4.3%;
+    
+
+}
+.projectheadings
+{
+    padding-left: 4.3%;
+}
