@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import style from "../pages/CSS/Text.module.css"
+import Navbar from "./Navbar";
 export default function Projectss() {
 
     const settings = {
@@ -15,7 +16,7 @@ export default function Projectss() {
         autoplaySpeed:2000
     };
   return (
-    <div>
+    <div key = '1'>
         <div className="container px-4 " id="featured-3">
                 <h1 className="pb-2 pt-4 border-bottom">Projects</h1>
             <div className="row mt-5">
