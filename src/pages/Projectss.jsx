@@ -2,7 +2,7 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import style from "../pages/CSS/Text.module.css"
 export default function Projectss() {
 
     const settings = {
@@ -23,7 +23,7 @@ export default function Projectss() {
                 
                 <div className="col">
 
-                    <div className="card">
+                    <div className={`card ${style.projectBox}`}>
                         <div className="card-body">
                             <div className="card-title">
                                 <div className="row">
@@ -44,11 +44,12 @@ export default function Projectss() {
                                 </div>
 
 
-                                <h3>Portfolio</h3>
+                                <h3>Spotify Clone</h3>
                                 <div className="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus, quia nihil molestiae possimus eius sint fugiat et culpa quaerat facere nostrum explicabo soluta tempore? Non esse accusamus praesentium dolore!
+                                A music player which allows user to play songs and get details of
+                                 songs similar to Spotify. 
                                 </div>
-                                <div className="row mt-3 " style={{ display: "flex", justifyContent: "center" }}>
+                                <div className="row mt-5 " style={{ display: "flex", justifyContent: "center" }}>
                                     <div className="col">
                                         <div className="card">
                                             <div className="card-body">
@@ -113,7 +114,7 @@ export default function Projectss() {
 
                 </div>
                 <div className="col">
-                <div className="card">
+                <div className={`card ${style.projectBox}`}>
                         <div className="card-body">
                             <div className="card-title">
                                 <div className="row">
@@ -134,11 +135,12 @@ export default function Projectss() {
                                 </div>
 
 
-                                <h3>Portfolio</h3>
+                                <h3>Netflix Clone</h3>
                                 <div className="card-text">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus, quia nihil molestiae possimus eius sint fugiat et culpa quaerat facere nostrum explicabo soluta tempore? Non esse accusamus praesentium dolore!
+                                A web-application that allows developers to create and deploy a
+video-on-demand platform similar to Netflix.
                                 </div>
-                                <div className="row mt-3 " style={{ display: "flex", justifyContent: "center" }}>
+                                <div className="row mt-4 " style={{ display: "flex", justifyContent: "center" }}>
                                     <div className="col">
                                         <div className="card">
                                             <div className="card-body">
@@ -203,7 +205,7 @@ export default function Projectss() {
                 </div>
                 <div className="col">
 
-<div className="card">
+<div className={`card ${style.projectBox}`}>
     <div className="card-body">
         <div className="card-title">
             <div className="row">
@@ -224,11 +226,12 @@ export default function Projectss() {
             </div>
 
 
-            <h3>Portfolio</h3>
+            <h3>Learning Management </h3>
             <div className="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione voluptatibus, quia nihil molestiae possimus eius sint fugiat et culpa quaerat facere nostrum explicabo soluta tempore? Non esse accusamus praesentium dolore!
+            A software which can be used for e-learning with range of
+tutorials and quizes on various subjets and grades.
             </div>
-            <div className="row mt-3 " style={{ display: "flex", justifyContent: "center" }}>
+            <div className="row mt-4 " style={{ display: "flex", justifyContent: "center" }}>
                 <div className="col">
                     <div className="card">
                         <div className="card-body">
